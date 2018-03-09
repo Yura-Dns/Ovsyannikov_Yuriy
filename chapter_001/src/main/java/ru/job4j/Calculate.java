@@ -2,6 +2,6 @@ package yura_dns;
 
 public class Calculate {
 	public static void main(String[] args) {
-		System.out.println("Без разницы что и привет мир");
+		System.out.println("Р‘РµР· СЂР°Р·РЅРёС†С‹ С‡С‚Рѕ Рё РїСЂРёРІРµС‚ РјРёСЂ");
 	}
 }
