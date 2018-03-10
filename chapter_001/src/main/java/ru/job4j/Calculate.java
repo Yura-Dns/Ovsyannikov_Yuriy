@@ -6,6 +6,14 @@ package yura_dns;
 */
 public class Calculate {
 	public static void main(String[] args) {
-		System.out.println("Без разницы что и привет мир");
+		System.out.println("Echo, echo, echo : " + name);
+	}
+	/**
+		* Method echo.
+		* @param name yura_dns
+		* @return Echo plus your name.
+	*/
+public String echo(String name) {
+    return "Echo, echo, echo : " + name;
 	}
 }
