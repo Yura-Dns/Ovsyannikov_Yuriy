@@ -1,19 +1,21 @@
-package yura_dns;
+package ru.job4j;
 /**
-	* Для вывода строки в консоль.
-	* Main.
-	* @param args - args.
-*/
+ * Calculate.
+ *
+ * @author Petr Arsentev (parsentev@yandex.ru)
+ * @version $Id$
+ * @since 0.1
+ */
 public class Calculate {
-	public static void main(String[] args) {
-		System.out.println("Echo, echo, echo : " + name);
-	}
 	/**
-		* Method echo.
-		* @param name yura_dns
-		* @return Echo plus your name.
-	*/
+     * Main.
+     * @param args - args.
+     */
+	public static void main(String[] args) {
+		System.out.println("Echo, echo, echo : " + 123);
+	}
+	
 public String echo(String name) {
-    return "Echo, echo, echo : " + name;
+    return "Echo, echo, echo : " + 123;
 	}
 }

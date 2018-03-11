@@ -8,16 +8,15 @@ import static org.junit.Assert.assertThat;
 
 /**
 * Test.
-*
-* @author Yuriy Ovsyannikov (yura013013@mail.ru)
-* @version $Id$
-* @since 0.1
+* @author Yuriy Ovsyannikov (yura013013@mail.ru).
+* @version $Id$.
+* @since 0.1.
 */
 public class CalculateTest {
 	
 /**
 * Test echo.
-* @Test
+* @Test.
 */
 public void whenTakeNameThenTreeEchoPlusName() {
     String input = "yura_dns";
@@ -26,6 +25,5 @@ public void whenTakeNameThenTreeEchoPlusName() {
     String result = calc.echo(input);
     assertThat(result, is(expect));
 	}
- 
 }
  
