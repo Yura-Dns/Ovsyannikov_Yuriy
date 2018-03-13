@@ -18,6 +18,7 @@ public class CalculateTest {
 * Test echo.
 * @Test.
 */
+@Test
 public void whenTakeNameThenTreeEchoPlusName() {
     String input = "yura_dns";
     String expect = "Echo, echo, echo : yura_dns"; 
