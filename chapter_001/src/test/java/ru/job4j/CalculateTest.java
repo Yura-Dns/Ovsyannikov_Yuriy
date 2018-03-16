@@ -20,8 +20,8 @@ public class CalculateTest {
 */
 @Test
 public void whenTakeNameThenTreeEchoPlusName() {
-    String input = "yura_dns";
-    String expect = "Echo, echo, echo : yura_dns"; 
+    String input = "yura_dns1";
+    String expect = "Echo, echo, echo : yura_dns1";
     Calculate calc = new Calculate();
     String result = calc.echo(input);
     assertThat(result, is(expect));
