@@ -6,7 +6,7 @@ public class Calculate {
     public void add(double first, double seconds){
         this.result = first / seconds;
     }
-    public double getResult() {
+    public double getResult(){
         return this.result;
     }
 }
