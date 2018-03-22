@@ -17,7 +17,7 @@ public class CalculateTest {
     public void whenAddOneMinusOneThenZiro() {
         Calculate calc = new Calculate();
         calc.Minus(1D, 1D);
-        double result = calc.getResult2();
+        double result = calc.getResult();
         double expected = 0D;
         assertThat(result, is(expected));
     }
@@ -25,7 +25,7 @@ public class CalculateTest {
     public void whenMultiplication() {
         Calculate calc = new Calculate();
         calc.multiplication(2D, 4D);
-        double result = calc.getResult3();
+        double result = calc.getResult();
         double expected = 8D;
         assertThat(result, is(expected));
     }
@@ -33,7 +33,7 @@ public class CalculateTest {
     public void whenDivision() {
         Calculate calc = new Calculate();
         calc.division(8D, 2D);
-        double result = calc.getResult4();
+        double result = calc.getResult();
         double expected = 4D;
         assertThat(result, is(expected));
     }
