@@ -6,11 +6,11 @@ import org.junit.Test;
 import static org.hamcrest.core.Is.is;
 import static org.junit.Assert.assertThat;
 
-public class M_V_Test {
+public class M_V3_Test {
     @Test
     public void maxValue() {
-        M_V calc = new M_V();
-        int result = calc.max(11, 3);
+        M_V3 calc = new M_V3();
+        int result = calc.max(11, 3, 9);
         int expected = 11;
         assertThat(result, is(expected));
     }
