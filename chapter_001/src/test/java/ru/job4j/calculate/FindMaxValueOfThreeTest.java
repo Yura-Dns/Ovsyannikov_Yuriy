@@ -9,10 +9,8 @@ import static org.junit.Assert.assertThat;
 public class FindMaxValueOfThreeTest {
     @Test
     public void maxValue() {
-        FindMaxValueOfThree calc = new FindMaxValueOfThree();
-        int maxOfTwo = calc.findMaxValueTwo(3,2);
-        int maxOfThree = calc.findMaxValueThree(maxOfTwo, 34);
-        int expected = 34;
-        assertThat(maxOfThree, is(expected));
+    FindMaxValueHost findMaxValueHost = new FindMaxValueHost();
+        assertThat(findMaxValueHost.maxValue(2,5,9),
+                is(9));
     }
 }
