@@ -1,13 +1,12 @@
 package ru.job4j.array;
 
 public class Square {
-    public int res;
-    public void form(int bond, int ind){
+
+    public int[] form(int bond) {
         int[] mass = new int[bond];
-        for (int i=0; i<mass.length; i++){
-            mass[i] = i*i;
-            this.res= mass[ind];
+        for (int i = 0; i < mass.length; i++) {
+            mass[i] = i * i;
         }
+        return mass;
     }
-    public double oRes() {return this.res;}
 }
